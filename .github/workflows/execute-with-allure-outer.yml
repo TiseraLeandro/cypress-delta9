@@ -1,3 +1,4 @@
+
 # This is a basic workflow that is manually triggered
 
 name: Delta9 run all tests 
@@ -10,22 +11,22 @@ on:
     inputs:
       test_target_env:
         # Friendly description to be shown in the UI instead of 'name'
-        description: 'Environment [staging | prod]'
+        description: 'Environment [staging]'
         # Default value if no value is explicitly provided
         default: 'staging'
         # Input has to be provided for the workflow to run
         required: true
         # The data type of the input
         type: string
-    #  tags:
-    #    # Friendly description to be shown in the UI instead of 'name'
-    #    description: 'Tags to run [@Cannabinoids | @Terpenes | @Microbials | @Moisture_WaterA | @ResidualSolvents | @PesticidesMycotoxins | not @teamHelper]'
-    #    # Default value if no value is explicitly provided
-    #    default: '@Terpenes'
-    #    # Input has to be provided for the workflow to run
-    #    required: true
-    #    # The data type of the input
-    #    type: string
+      tags:
+        # Friendly description to be shown in the UI instead of 'name'
+        description: 'Main Tags to run [@SANITY]'
+        # Default value if no value is explicitly provided
+        default: '@SANITY'
+        # Input has to be provided for the workflow to run
+        required: true
+        # The data type of the input
+        type: string
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -43,7 +44,7 @@ jobs:
         - name: Cypress run with Cucumber
           uses: cypress-io/github-action@v4.2.0 # use the explicit version number
           with:
-            command: npm run cypress:execution-allure:${{ inputs.test_target_env }}
+            command: npm run cypress:execution-allure -- --env ENVIRONMENT=${{ inputs.test_target_env }},allure=true,tags=${{ inputs.tags }}
         - name: Get Allure history
           uses: actions/checkout@v3
           if: always()

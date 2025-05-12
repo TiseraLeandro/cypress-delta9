@@ -1,0 +1,153 @@
+name: Sanity-Remote
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Entorno de prueba'
+        required: true
+        default: 'staging'
+        type: choice
+        options: ['DEV', 'QA', 'staging', 'PROD']
+      browser:
+        description: 'Navegador para las pruebas'
+        required: true
+        default: 'chrome'
+        type: choice
+        options: ['chrome', 'firefox', 'edge']
+  
+  # Permite disparar este flujo desde el orquestador principal
+  repository_dispatch:
+    types: [remote-test-trigger]
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      # Determinar el entorno y navegador basado en el trigger
+      - name: Set test parameters
+        id: params
+        run: |
+          if [ "${{ github.event_name }}" == "repository_dispatch" ]; then
+            echo "ENVIRONMENT=${{ github.event.client_payload.environment }}" >> $GITHUB_ENV
+            echo "BROWSER=${{ github.event.client_payload.browser }}" >> $GITHUB_ENV
+            echo "CALLER_RUN_ID=${{ github.event.client_payload.caller_run_id }}" >> $GITHUB_ENV
+          else
+            echo "ENVIRONMENT=${{ github.event.inputs.environment }}" >> $GITHUB_ENV
+            echo "BROWSER=${{ github.event.inputs.browser }}" >> $GITHUB_ENV
+            echo "CALLER_RUN_ID=null" >> $GITHUB_ENV
+          fi
+      
+      - name: Debug information
+        run: |
+          echo "event_name is: $github.event_name"
+          echo "ENVIRONMENT is: $env.ENVIRONMENT"
+          echo "ENVIRONMENT is: ${{ github.event.client_payload.environment }}"
+          echo "BROWSER is: $env.BROWSER"
+          echo "ENVIRONMENT is: ${{ github.event.client_payload.browser }}"
+          echo "CALLER_RUN_ID is: $env.CALLER_RUN_ID"
+          
+      - name: install allure cli
+        run: npm run allure:install      
+      - name: install allure plugin
+        run: npm install -g allure-commandline --save-dev && npm i -D @shelex/cypress-allure-plugin
+      - name: Cypress run with Cucumber
+        uses: cypress-io/github-action@v4.2.0 # use the explicit version number
+        with:
+          command: npm run cypress:execution-allure -- --env ENVIRONMENT=${{ env.ENVIRONMENT }},allure=true,tags=@SANITY
+      - name: Get Allure history
+        uses: actions/checkout@v3
+        if: always()
+        continue-on-error: true
+        with:
+          ref: allure
+          path: allure
+      - name: Generate Allure Report
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        with:
+          allure_results: allure-results
+          gh_pages: allure
+          subfolder: sanity
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: allure
+          publish_dir: allure-history
+      - name: Store Cypress results
+        if: always()
+        run: |
+            # Find all result files
+            RESULT_FILES=$(find allure-results -name "*-result.json")
+            
+            if [ -z "$RESULT_FILES" ]; then
+                echo "Couldn't find any result files. Setting values to 0."
+                echo "CYPRESS_TOTAL_TESTS=0" >> $GITHUB_ENV
+                echo "CYPRESS_PASSED_TESTS=0" >> $GITHUB_ENV
+                echo "CYPRESS_FAILED_TESTS=0" >> $GITHUB_ENV
+            else
+                # Initialize counters
+                TOTAL=0
+                PASSED=0
+                FAILED=0
+                
+                # Process each file
+                for file in $RESULT_FILES; do
+                # Increment total
+                TOTAL=$((TOTAL + 1))
+                
+                # Extract top-level status field using jq
+                TOP_STATUS=$(jq -r '.status' "$file")
+                
+                # Check if test passed
+                if [ "$TOP_STATUS" == "passed" ]; then
+                    PASSED=$((PASSED + 1))
+                else
+                    FAILED=$((FAILED + 1))
+                fi
+                done
+                
+                # Set environment variables
+                echo "CYPRESS_TOTAL_TESTS=$TOTAL" >> $GITHUB_ENV
+                echo "CYPRESS_PASSED_TESTS=$PASSED" >> $GITHUB_ENV
+                echo "CYPRESS_FAILED_TESTS=$FAILED" >> $GITHUB_ENV
+            fi
+            # Display values for verification
+            echo "Total tests: $TOTAL"
+            echo "Passed tests: $PASSED"
+            echo "Failed tests: $FAILED"
+
+    # Reportar los resultados al orquestador si este job fue invocado remotamente
+    # Continuará ante fallos salvo que el job se haya cancelado
+      - name: Report results to orchestrator
+        if: ${{ env.CALLER_RUN_ID != 'null' }} && ${{ !cancelled() }}
+        run: |
+          # Crear archivo JSON con resultados para el orquestador
+          cat > test-results.json << EOF
+          {
+            "repository": "${{ github.repository }}",
+            "workflow_run_id": "${{ github.run_id }}",
+            "status": "${{ job.status }}",
+            "test_summary": {
+              "total": "${{ env.CYPRESS_TOTAL_TESTS || 0 }}",
+              "passed": "${{ env.CYPRESS_PASSED_TESTS || 0 }}",
+              "failed": "${{ env.CYPRESS_FAILED_TESTS || 0 }}"
+            },
+            "allure_report_url": "https://slingr-stack.github.io/cypress-nova/sanity"
+          }
+          EOF
+          
+          # Subir resultados como artefacto para que el orquestador lo recoja
+          echo "Guardando resultados para el orquestador (ID: ${{ env.CALLER_RUN_ID }})"
+    
+      - name: Upload results for orchestrator
+        if: ${{ env.CALLER_RUN_ID != 'null' }} && ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results-${{ github.repository_owner }}-${{ github.event.repository.name }}
+          path: test-results.json
+          retention-days: 1        

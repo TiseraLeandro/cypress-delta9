@@ -1,0 +1,624 @@
+TUSCADERO,3132025,,,,,,,
+File,C:\star\data\qcl1_250313.run,Filetype,800,,,,,
+WTOASCII Parameters:,C:\star\WTOASCII.TXT,,,,,,,
+ 1 channels,,,,,,,,
+   Channel,1,FID,,in Volts,,,,
+Base rate 10.0000 Hz,Bunch 4,Effective rate 10.00000 Hz.,T = 0.001667 min.,,,,,
+10550 points,from,0,to,17.583,minutes,,,
+Sampling every 4 point(s),,,,,,,,
+Printing points from,0,to,"17.583 min, point 0 to 10549",,,,,
+Channels,1,to,1,,,,,
+Results for Channel,Front,=,FID,,,,,
+Title:,Report Title,,,,,,,
+Run File:,C:\star\data\qcl1_250313.run,,,,,,,
+--------------,,,,,,,,
+Injection Info,,,,,,,,
+--------------,,,,,,,,
+Method:,C:\star\He_TrpDir2.mth,,,,,,,
+Sample:,QCL1_250313,,,,,,,
+Injection Date:,Thu Mar 13 11:25:03 2025,,,,,,,
+Tray: 1  Vial: 8        Injection Number: 1    Volume: 4.00 uL,,,,,,,,
+Operator:,oPERATOR,,,,,,,
+Instrument:,iNSTRUMENT #1,,,,,,,
+Notes:,,,,,,,,
+---------,,,,,,,,
+Misc Info,,,,,,,,
+---------,,,,,,,,
+Workstation:,DELTA-22DE4A88ÿHÚš”)G×Z,,,,,,,
+Bus Address:,44,,,,,,,
+Run Time:,0,to,17.583,min.,,,,
+-----------,,,,,,,,
+Recalc Info,,,,,,,,
+-----------,,,,,,,,
+Recalc Method:,C:\star\He_TrpDir2.mth,,,,,,,
+Recalc Date:,Fri Mar 14 07:17:01 2025,,,,,,,
+Operator:,oPERATOR,,,,,,,
+Instrument:,iNSTRUMENT #1,,,,,,,
+Notes:,,,,,,,,
+Sample Rate:,10.000 Hz.,,,,,,,
+Measurement Type:,1 = Area,,,,,,,
+Calculation Type:,4 = ExtStd,,,,,,,
+Normalize Results:,No,,,,,,,
+------------------------,,,,,,,,
+Peak Info for Channel Front,,,,,,,,
+------------------------,,,,,,,,
+34 Peaks (tR,Timeoffset,RRT,Sepcode,Width,Counts,Result,Name),Accuracy
+5.462,-0.001,0,BB,1.99,46044,0.069441,a-Pinene,111.1%
+5.791,-0.001,0,BB,2.06,45279,0.069686,Camphene,111.5%
+6.172,-0.002,0,BV,1.97,40289,0.063165,b-Myrcine,101.1%
+6.256,-0.003,0,VB,2.13,46930,0.070992,b-Pinene,113.6%
+6.72,-0.003,0,BB,2.25,47876,0.057938,d-3-Carene,92.7%
+6.902,-0.004,0,BB,2.26,46244,0.059276,a-Terpene,94.8%
+7.014,-0.005,0,BB,2.26,12541,0.053434,Ocimene-1,85.5%
+7.132,-0.005,0,BV,2.41,44790,0.060773,d-Limonene,97.2%
+7.192,-0.008,0,VV,2.39,51694,0.059488,p-Cymene,95.2%
+7.346,-0.004,0,VV,2.45,31927,0.057539,Ocimene 2,92.1%
+7.43,-0.007,0,VB,2.68,43357,0.058386,Eucalyptol,93.4%
+7.748,-0.006,0,BB,2.54,46684,0.062616,g-Terpinene,100.2%
+8.539,-0.006,0,BP,2.96,43885,0.058347,Terpinolene,93.4%
+9.633,-0.007,0,BB,3.37,43313,0.066922,Linalool,107.1%
+10.856,-0.007,0,BB,1.7,38910,0.065893,Isopugeol,105.4%
+12.056,-0.007,0,BB,1.26,38347,0.078001,Geraniol,124.8%
+13.377,-0.008,0,BP,1.11,54536,0.07176,b-Caryophyllene,114.8%
+13.605,-0.007,0,PB,1,49310,0.067329,a-Humulene,107.7%
+13.941,-0.006,0,BB,0.97,22054,0.079119,Nerolidol-1,126.6%
+14.097,-0.007,0,BB,0.95,33622,0.071739,Nerolidol-2,114.8%
+14.449,-0.009,0,BV,0.97,54625,0.078603,Guaiol,125.8%
+14.52,-0.008,0,VP,1.01,52755,0.074666,Caryophyllene oxide,119.5%
+14.773,-0.008,0,BB,1,51885,0.075353,a-Bisobolol,120.6%
+,,,,,,,,
+File,C:\star\data\qcint1_250313.run,Filetype,800,,,,,
+WTOASCII Parameters:,C:\star\WTOASCII.TXT,,,,,,,
+ 1 channels,,,,,,,,
+   Channel,1,FID,,in Volts,,,,
+Base rate 10.0000 Hz,Bunch 4,Effective rate 10.00000 Hz.,T = 0.001667 min.,,,,,
+10550 points,from,0,to,17.583,minutes,,,
+Sampling every 4 point(s),,,,,,,,
+Printing points from,0,to,"17.583 min, point 0 to 10549",,,,,
+Channels,1,to,1,,,,,
+Results for Channel,Front,=,FID,,,,,
+Title:,Report Title,,,,,,,
+Run File:,C:\star\data\qcint1_250313.run,,,,,,,
+--------------,,,,,,,,
+Injection Info,,,,,,,,
+--------------,,,,,,,,
+Method:,C:\star\He_TrpDir2.mth,,,,,,,
+Sample:,QCInt1_250313,,,,,,,
+Injection Date:,Thu Mar 13 11:47:43 2025,,,,,,,
+Tray: 1  Vial: 9        Injection Number: 1    Volume: 4.00 uL,,,,,,,,
+Operator:,oPERATOR,,,,,,,
+Instrument:,iNSTRUMENT #1,,,,,,,
+Notes:,,,,,,,,
+---------,,,,,,,,
+Misc Info,,,,,,,,
+---------,,,,,,,,
+Workstation:,DELTA-22DE4A88ÿHÚš”)G×Z,,,,,,,
+Bus Address:,44,,,,,,,
+Run Time:,0,to,17.583,min.,,,,
+-----------,,,,,,,,
+Recalc Info,,,,,,,,
+-----------,,,,,,,,
+Recalc Method:,C:\star\He_TrpDir2.mth,,,,,,,
+Recalc Date:,Fri Mar 14 07:17:08 2025,,,,,,,
+Operator:,oPERATOR,,,,,,,
+Instrument:,iNSTRUMENT #1,,,,,,,
+Notes:,,,,,,,,
+Sample Rate:,10.000 Hz.,,,,,,,
+Measurement Type:,1 = Area,,,,,,,
+Calculation Type:,4 = ExtStd,,,,,,,
+Normalize Results:,No,,,,,,,
+------------------------,,,,,,,,
+Peak Info for Channel Front,,,,,,,,
+------------------------,,,,,,,,
+37 Peaks (tR,Timeoffset,RRT,Sepcode,Width,Counts,Result,Name),
+5.464,0.001,0,VV,2.01,250905,0.961996,a-Pinene,96.2%
+5.792,0,0,VB,2.08,251813,0.979235,Camphene,97.9%
+6.173,-0.001,0,VV,1.93,222662,0.945668,b-Myrcine,94.6%
+6.259,0,0,VB,2.19,249868,0.948727,b-Pinene,94.9%
+6.723,0,0,BB,2.26,268055,0.936082,d-3-Carene,93.6%
+6.904,-0.002,0,BB,2.23,252455,0.926574,a-Terpene,92.7%
+7.017,-0.002,0,BB,2.23,67744,0.898298,Ocimene-1,89.8%
+7.135,-0.002,0,BV,2.44,246973,0.953311,d-Limonene,95.3%
+7.197,-0.003,0,VP,2.35,283914,0.935896,p-Cymene,93.6%
+7.349,-0.002,0,PV,2.36,176176,0.930405,Ocimene 2,93.0%
+7.433,-0.003,0,VB,2.67,226441,0.909749,Eucalyptol,91.0%
+7.751,-0.003,0,BB,2.56,249606,0.928382,g-Terpinene,92.8%
+8.543,-0.002,0,BB,2.9,240907,0.923215,Terpinolene,92.3%
+9.637,-0.003,0,BB,3.31,227705,0.930389,Linalool,93.0%
+10.858,-0.005,0,BB,1.66,205117,0.929162,Isopugeol,92.9%
+12.057,-0.006,0,BB,1.15,201158,0.952181,Geraniol,95.2%
+13.379,-0.006,0,BB,1.09,277147,0.937957,b-Caryophyllene,93.8%
+13.607,-0.005,0,PB,1.05,251141,0.918306,a-Humulene,91.8%
+13.942,-0.005,0,BB,0.95,100714,0.928541,Nerolidol-1,92.9%
+14.099,-0.005,0,BB,0.94,151997,0.927388,Nerolidol-2,92.7%
+14.452,-0.006,0,BV,0.96,248754,0.9249,Guaiol,92.5%
+14.522,-0.006,0,VP,0.99,246030,0.894368,Caryophyllene oxide,89.4%
+14.776,-0.005,0,BB,0.99,237002,0.911477,a-Bisobolol,91.1%
+,,,,,,,,
+File,C:\star\data\qch1_250313.run,Filetype,800,,,,,
+WTOASCII Parameters:,C:\star\WTOASCII.TXT,,,,,,,
+ 1 channels,,,,,,,,
+   Channel,1,FID,,in Volts,,,,
+Base rate 10.0000 Hz,Bunch 4,Effective rate 10.00000 Hz.,T = 0.001667 min.,,,,,
+10550 points,from,0,to,17.583,minutes,,,
+Sampling every 4 point(s),,,,,,,,
+Printing points from,0,to,"17.583 min, point 0 to 10549",,,,,
+Channels,1,to,1,,,,,
+Results for Channel,Front,=,FID,,,,,
+Title:,Report Title,,,,,,,
+Run File:,C:\star\data\qch1_250313.run,,,,,,,
+--------------,,,,,,,,
+Injection Info,,,,,,,,
+--------------,,,,,,,,
+Method:,C:\star\He_TrpDir2.mth,,,,,,,
+Sample:,QCH1_250313,,,,,,,
+Injection Date:,Thu Mar 13 12:10:23 2025,,,,,,,
+Tray: 1  Vial: 10       Injection Number: 1    Volume: 4.00 uL,,,,,,,,
+Operator:,oPERATOR,,,,,,,
+Instrument:,iNSTRUMENT #1,,,,,,,
+Notes:,,,,,,,,
+---------,,,,,,,,
+Misc Info,,,,,,,,
+---------,,,,,,,,
+Workstation:,DELTA-22DE4A88ÿHÚš”)G×Z,,,,,,,
+Bus Address:,44,,,,,,,
+Run Time:,0,to,17.583,min.,,,,
+-----------,,,,,,,,
+Recalc Info,,,,,,,,
+-----------,,,,,,,,
+Recalc Method:,C:\star\He_TrpDir2.mth,,,,,,,
+Recalc Date:,Fri Mar 14 07:17:15 2025,,,,,,,
+Operator:,oPERATOR,,,,,,,
+Instrument:,iNSTRUMENT #1,,,,,,,
+Notes:,,,,,,,,
+Sample Rate:,10.000 Hz.,,,,,,,
+Measurement Type:,1 = Area,,,,,,,
+Calculation Type:,4 = ExtStd,,,,,,,
+Normalize Results:,No,,,,,,,
+------------------------,,,,,,,,
+Peak Info for Channel Front,,,,,,,,
+------------------------,,,,,,,,
+49 Peaks (tR,Timeoffset,RRT,Sepcode,Width,Counts,Result,Name),Accurach
+5.463,0,0,VV,2.04,509882,1.888899,a-Pinene,94.4%
+5.792,0,0,VP,2.09,514784,1.893925,Camphene,94.7%
+6.174,0,0,VV,1.94,457813,1.890101,b-Myrcine,94.5%
+6.259,0,0,VB,2.18,510824,1.885186,b-Pinene,94.3%
+6.724,0.001,0,BB,2.29,548142,1.889673,d-3-Carene,94.5%
+6.906,0,0,BB,2.27,518351,1.892125,a-Terpene,94.6%
+7.02,0.001,0,BB,2.26,140712,1.902986,Ocimene-1,95.1%
+7.138,0.001,0,BV,2.46,507176,1.892684,d-Limonene,94.6%
+7.2,0,0,VP,2.34,583049,1.89603,p-Cymene,94.8%
+7.351,0,0,PV,2.36,361097,1.892376,Ocimene 2,94.6%
+7.437,0,0,VP,2.64,464592,1.893511,Eucalyptol,94.7%
+7.754,0,0,VB,2.56,515111,1.89817,g-Terpinene,94.9%
+8.545,0,0,BB,2.88,494715,1.892148,Terpinolene,94.6%
+9.641,0.001,0,BB,3.32,462375,1.885295,Linalool,94.3%
+10.863,0,0,BB,1.69,417171,1.88107,Isopugeol,94.1%
+12.063,0,0,BB,1.21,421090,1.895877,Geraniol,94.8%
+13.385,0,0,PP,1.06,557283,1.888545,b-Caryophyllene,94.4%
+13.613,0,0,PB,1.04,517111,1.9093,a-Humulene,95.5%
+13.947,0,0,PB,0.94,199871,1.87117,Nerolidol-1,93.6%
+14.105,0.001,0,BB,0.96,302946,1.878085,Nerolidol-2,93.9%
+14.458,0,0,BV,0.97,494655,1.873061,Guaiol,93.7%
+14.528,0,0,VP,1.01,496921,1.891503,Caryophyllene oxide,94.6%
+14.781,0,0,BP,1.03,478015,1.895658,a-Bisobolol,94.8%
+,,,,,,,,
+File,C:\star\data\BCF-250509-496-1_250313.run,Filetype,800,,,,,
+WTOASCII Parameters:,C:\star\WTOASCII.TXT,,,,,,,
+ 1 channels,,,,,,,,
+   Channel,1,FID,,in Volts,,,,
+Base rate 10.0000 Hz,Bunch 4,Effective rate 10.00000 Hz.,T = 0.001667 min.,,,,,
+10550 points,from,0,to,17.583,minutes,,,
+Sampling every 4 point(s),,,,,,,,
+Printing points from,0,to,"17.583 min, point 0 to 10549",,,,,
+Channels,1,to,1,,,,,
+Results for Channel,Front,=,FID,,,,,
+Title:,Report Title,,,,,,,
+Run File:,C:\star\data\21682_250313.run,,,,,,,
+--------------,,,,,,,,
+Injection Info,,,,,,,,
+--------------,,,,,,,,
+Method:,C:\star\He_TrpDir2.mth,,,,,,,
+Sample:,21682_250313,,,,,,,
+Injection Date:,Thu Mar 13 12:55:48 2025,,,,,,,
+Tray: 1  Vial: 15       Injection Number: 1    Volume: 4.00 uL,,,,,,,,
+Operator:,oPERATOR,,,,,,,
+Instrument:,iNSTRUMENT #1,,,,,,,
+Notes:,,,,,,,,
+---------,,,,,,,,
+Misc Info,,,,,,,,
+---------,,,,,,,,
+Workstation:,DELTA-22DE4A88ÿHÚš”)G×Z,,,,,,,
+Bus Address:,44,,,,,,,
+Run Time:,0,to,17.583,min.,,,,
+-----------,,,,,,,,
+Recalc Info,,,,,,,,
+-----------,,,,,,,,
+Recalc Method:,C:\star\He_TrpDir2.mth,,,,,,,
+Recalc Date:,Fri Mar 14 07:17:29 2025,,,,,,,
+Operator:,oPERATOR,,,,,,,
+Instrument:,iNSTRUMENT #1,,,,,,,
+Notes:,,,,,,,,
+Sample Rate:,10.000 Hz.,,,,,,,
+Measurement Type:,1 = Area,,,,,,,
+Calculation Type:,4 = ExtStd,,,,,,,
+Normalize Results:,No,,,,,,,
+------------------------,,,,,,,,
+Peak Info for Channel Front,,,,,,,Sample Weight mg,60.3
+------------------------,,,,,,,,
+56 Peaks (tR,Timeoffset,RRT,Sepcode,Width,Counts,Result,Name),
+9.625,-0.016,0,BB,3.45,60402,0.178609,Linalool,0.1481003317
+13.377,-0.008,0,VP,1.08,179509,0.537034,b-Caryophyllene,0.4453018242
+13.606,-0.006,0,VB,1.08,87431,0.24807,a-Humulene,0.2056965174
+13.947,0,0,BB,1.5,33337,0.23441,Nerolidol-1,0.1943698176
+14.45,-0.009,0,BV,1.02,43740,0.09058,Guaiol,0.07510779436
+14.521,-0.007,0,VV,1.05,43073,0.082387,Caryophyllene oxide,0.06831426202
+14.774,-0.007,0,BV,1.11,58585,0.152631,a-Bisobolol,0.1265597015
+,,,,,,,,
+File,C:\star\data\IFM-250410-14-1_250313.run,Filetype,800,,,,,
+WTOASCII Parameters:,C:\star\WTOASCII.TXT,,,,,,,
+ 1 channels,,,,,,,,
+   Channel,1,FID,,in Volts,,,,
+Base rate 10.0000 Hz,Bunch 4,Effective rate 10.00000 Hz.,T = 0.001667 min.,,,,,
+10550 points,from,0,to,17.583,minutes,,,
+Sampling every 4 point(s),,,,,,,,
+Printing points from,0,to,"17.583 min, point 0 to 10549",,,,,
+Channels,1,to,1,,,,,
+Results for Channel,Front,=,FID,,,,,
+Title:,Report Title,,,,,,,
+Run File:,C:\star\data\21683_250313.run,,,,,,,
+--------------,,,,,,,,
+Injection Info,,,,,,,,
+--------------,,,,,,,,
+Method:,C:\star\He_TrpDir2.mth,,,,,,,
+Sample:,21683_250313,,,,,,,
+Injection Date:,Thu Mar 13 13:18:35 2025,,,,,,,
+Tray: 1  Vial: 16       Injection Number: 1    Volume: 4.00 uL,,,,,,,,
+Operator:,oPERATOR,,,,,,,
+Instrument:,iNSTRUMENT #1,,,,,,,
+Notes:,,,,,,,,
+---------,,,,,,,,
+Misc Info,,,,,,,,
+---------,,,,,,,,
+Workstation:,DELTA-22DE4A88ÿHÚš”)G×Z,,,,,,,
+Bus Address:,44,,,,,,,
+Run Time:,0,to,17.583,min.,,,,
+-----------,,,,,,,,
+Recalc Info,,,,,,,,
+-----------,,,,,,,,
+Recalc Method:,C:\star\He_TrpDir2.mth,,,,,,,
+Recalc Date:,Fri Mar 14 07:17:36 2025,,,,,,,
+Operator:,oPERATOR,,,,,,,
+Instrument:,iNSTRUMENT #1,,,,,,,
+Notes:,,,,,,,,
+Sample Rate:,10.000 Hz.,,,,,,,
+Measurement Type:,1 = Area,,,,,,,
+Calculation Type:,4 = ExtStd,,,,,,,
+Normalize Results:,No,,,,,,,
+------------------------,,,,,,,,
+Peak Info for Channel Front,,,,,,,Sample Weight mg,56.1
+------------------------,,,,,,,,
+41 Peaks (tR,Timeoffset,RRT,Sepcode,Width,Counts,Result,Name),
+6.164,-0.01,0,VV,1.96,20126,0.067706,b-Myrcine,0.06034402852
+6.249,-0.01,0,VB,2.2,16645,0.04558,b-Pinene,0.04062388592
+7.123,-0.014,0,BV,2.43,17878,0.045019,d-Limonene,0.04012388592
+7.338,-0.013,0,PV,2.59,16471,0.067452,Ocimene 2,0.06011764706
+8.53,-0.015,0,BB,2.85,27882,0.089169,Terpinolene,0.07947326203
+9.626,-0.014,0,BV,3.49,18304,0.056925,Linalool,0.05073529412
+13.377,-0.008,0,VP,1.19,66043,0.20272,b-Caryophyllene,0.1806773619
+13.606,-0.006,0,PV,1.12,29753,0.0883,a-Humulene,0.07869875223
+13.944,-0.003,0,BB,1.16,7452,0.047955,Nerolidol-1,0.04274064171
+14.098,-0.006,0,PB,0.82,10781,0.046189,Nerolidol-2,0.04116666667
+14.776,-0.005,0,BV,1.21,21859,0.06456,a-Bisobolol,0.05754010695
+,,,,,,,,
+File,C:\star\data\IFM-250410-13-1_250313.run,Filetype,800,,,,,
+WTOASCII Parameters:,C:\star\WTOASCII.TXT,,,,,,,
+ 1 channels,,,,,,,,
+   Channel,1,FID,,in Volts,,,,
+Base rate 10.0000 Hz,Bunch 4,Effective rate 10.00000 Hz.,T = 0.001667 min.,,,,,
+10550 points,from,0,to,17.583,minutes,,,
+Sampling every 4 point(s),,,,,,,,
+Printing points from,0,to,"17.583 min, point 0 to 10549",,,,,
+Channels,1,to,1,,,,,
+Results for Channel,Front,=,FID,,,,,
+Title:,Report Title,,,,,,,
+Run File:,C:\star\data\21684_250313.run,,,,,,,
+--------------,,,,,,,,
+Injection Info,,,,,,,,
+--------------,,,,,,,,
+Method:,C:\star\He_TrpDir2.mth,,,,,,,
+Sample:,21684_250313,,,,,,,
+Injection Date:,Thu Mar 13 13:41:21 2025,,,,,,,
+Tray: 1  Vial: 17       Injection Number: 1    Volume: 4.00 uL,,,,,,,,
+Operator:,oPERATOR,,,,,,,
+Instrument:,iNSTRUMENT #1,,,,,,,
+Notes:,,,,,,,,
+---------,,,,,,,,
+Misc Info,,,,,,,,
+---------,,,,,,,,
+Workstation:,DELTA-22DE4A88ÿHÚš”)G×Z,,,,,,,
+Bus Address:,44,,,,,,,
+Run Time:,0,to,17.583,min.,,,,
+-----------,,,,,,,,
+Recalc Info,,,,,,,,
+-----------,,,,,,,,
+Recalc Method:,C:\star\He_TrpDir2.mth,,,,,,,
+Recalc Date:,Fri Mar 14 07:17:43 2025,,,,,,,
+Operator:,oPERATOR,,,,,,,
+Instrument:,iNSTRUMENT #1,,,,,,,
+Notes:,,,,,,,,
+Sample Rate:,10.000 Hz.,,,,,,,
+Measurement Type:,1 = Area,,,,,,,
+Calculation Type:,4 = ExtStd,,,,,,,
+Normalize Results:,No,,,,,,,
+------------------------,,,,,,,,
+Peak Info for Channel Front,,,,,,,Sample Weight mg,50.5
+------------------------,,,,,,,,
+49 Peaks (tR,Timeoffset,RRT,Sepcode,Width,Counts,Result,Name),
+6.164,-0.01,0,VV,1.97,27823,0.121146,b-Myrcine,0.1199465347
+6.25,-0.009,0,VB,2.11,8254,0.032898,b-Pinene,0.03257227723
+7.124,-0.013,0,BV,2.3,15201,0.054248,d-Limonene,0.05371089109
+9.626,-0.014,0,BV,3.55,12293,0.052405,Linalool,0.05188613861
+13.377,-0.008,0,VP,1.2,31669,0.106347,b-Caryophyllene,0.1052940594
+13.605,-0.007,0,BV,1.11,13912,0.050841,a-Humulene,0.05033762376
+13.944,-0.003,0,BB,1.28,3668,0.033542,Nerolidol-1,0.03320990099
+14.097,-0.007,0,BB,2.12,39803,0.241079,Nerolidol-2,0.2386920792
+,,,,,,,,
+File,C:\star\data\CCRYS-250410-12-1_250313.run,Filetype,800,,,,,
+WTOASCII Parameters:,C:\star\WTOASCII.TXT,,,,,,,
+ 1 channels,,,,,,,,
+   Channel,1,FID,,in Volts,,,,
+Base rate 10.0000 Hz,Bunch 4,Effective rate 10.00000 Hz.,T = 0.001667 min.,,,,,
+10550 points,from,0,to,17.583,minutes,,,
+Sampling every 4 point(s),,,,,,,,
+Printing points from,0,to,"17.583 min, point 0 to 10549",,,,,
+Channels,1,to,1,,,,,
+Results for Channel,Front,=,FID,,,,,
+Title:,Report Title,,,,,,,
+Run File:,C:\star\data\21685_250313.run,,,,,,,
+--------------,,,,,,,,
+Injection Info,,,,,,,,
+--------------,,,,,,,,
+Method:,C:\star\He_TrpDir2.mth,,,,,,,
+Sample:,21685_250313,,,,,,,
+Injection Date:,Thu Mar 13 14:04:06 2025,,,,,,,
+Tray: 1  Vial: 18       Injection Number: 1    Volume: 4.00 uL,,,,,,,,
+Operator:,oPERATOR,,,,,,,
+Instrument:,iNSTRUMENT #1,,,,,,,
+Notes:,,,,,,,,
+---------,,,,,,,,
+Misc Info,,,,,,,,
+---------,,,,,,,,
+Workstation:,DELTA-22DE4A88ÿHÚš”)G×Z,,,,,,,
+Bus Address:,44,,,,,,,
+Run Time:,0,to,17.583,min.,,,,
+-----------,,,,,,,,
+Recalc Info,,,,,,,,
+-----------,,,,,,,,
+Recalc Method:,C:\star\He_TrpDir2.mth,,,,,,,
+Recalc Date:,Fri Mar 14 07:17:50 2025,,,,,,,
+Operator:,oPERATOR,,,,,,,
+Instrument:,iNSTRUMENT #1,,,,,,,
+Notes:,,,,,,,,
+Sample Rate:,10.000 Hz.,,,,,,,
+Measurement Type:,1 = Area,,,,,,,
+Calculation Type:,4 = ExtStd,,,,,,,
+Normalize Results:,No,,,,,,,
+------------------------,,,,,,,,
+Peak Info for Channel Front,,,,,,,Sample Weight mg,50.3
+------------------------,,,,,,,,
+38 Peaks (tR,Timeoffset,RRT,Sepcode,Width,Counts,Result,Name),
+5.457,-0.006,0,BB,1.9,9830,0.038468,a-Pinene,0.03823856859
+6.166,-0.008,0,BV,1.94,31543,0.137285,b-Myrcine,0.1364662028
+7.124,-0.013,0,BV,2.28,8196,0.026014,d-Limonene,0.02585884692
+7.34,-0.011,0,BB,2.35,19847,0.105388,Ocimene 2,0.1047594433
+9.626,-0.014,0,BB,3.61,10073,0.043351,Linalool,0.04309244533
+13.379,-0.006,0,VP,1.17,41088,0.138231,b-Caryophyllene,0.1374065606
+13.607,-0.005,0,VV,1.07,16967,0.061919,a-Humulene,0.06154970179
+13.95,0.003,0,BB,1.77,3136,0.028707,Nerolidol-1,0.02853578529
+14.099,-0.005,0,PB,0.52,4467,0.028278,Nerolidol-2,0.02810934394
+14.782,0.001,0,BV,1.3,9429,0.0381,a-Bisobolol,0.03787276342
+,,,,,,,,
+File,C:\star\data\qcl2_250313.run,Filetype,800,,,,,
+WTOASCII Parameters:,C:\star\WTOASCII.TXT,,,,,,,
+ 1 channels,,,,,,,,
+   Channel,1,FID,,in Volts,,,,
+Base rate 10.0000 Hz,Bunch 4,Effective rate 10.00000 Hz.,T = 0.001667 min.,,,,,
+10550 points,from,0,to,17.583,minutes,,,
+Sampling every 4 point(s),,,,,,,,
+Printing points from,0,to,"17.583 min, point 0 to 10549",,,,,
+Channels,1,to,1,,,,,
+Results for Channel,Front,=,FID,,,,,
+Title:,Report Title,,,,,,,
+Run File:,C:\star\data\qcl2_250313.run,,,,,,,
+--------------,,,,,,,,
+Injection Info,,,,,,,,
+--------------,,,,,,,,
+Method:,C:\star\He_TrpDir2.mth,,,,,,,
+Sample:,QCL2_250313,,,,,,,
+Injection Date:,Thu Mar 13 17:06:18 2025,,,,,,,
+Tray: 1  Vial: 8        Injection Number: 1    Volume: 4.00 uL,,,,,,,,
+Operator:,oPERATOR,,,,,,,
+Instrument:,iNSTRUMENT #1,,,,,,,
+Notes:,,,,,,,,
+---------,,,,,,,,
+Misc Info,,,,,,,,
+---------,,,,,,,,
+Workstation:,DELTA-22DE4A88ÿHÚš”)G×Z,,,,,,,
+Bus Address:,44,,,,,,,
+Run Time:,0,to,17.583,min.,,,,
+-----------,,,,,,,,
+Recalc Info,,,,,,,,
+-----------,,,,,,,,
+Recalc Method:,C:\star\He_TrpDir2.mth,,,,,,,
+Recalc Date:,Fri Mar 14 07:18:46 2025,,,,,,,
+Operator:,oPERATOR,,,,,,,
+Instrument:,iNSTRUMENT #1,,,,,,,
+Notes:,,,,,,,,
+Sample Rate:,10.000 Hz.,,,,,,,
+Measurement Type:,1 = Area,,,,,,,
+Calculation Type:,4 = ExtStd,,,,,,,
+Normalize Results:,No,,,,,,,
+------------------------,,,,,,,,
+Peak Info for Channel Front,,,,,,,,
+------------------------,,,,,,,,
+38 Peaks (tR,Timeoffset,RRT,Sepcode,Width,Counts,Result,Name),Accuracy
+5.457,-0.006,0,BB,2.01,17373,0.068379,a-Pinene,109.4%
+5.786,-0.006,0,BB,2.07,16333,0.062906,Camphene,100.6%
+6.166,-0.008,0,BV,1.92,16802,0.073241,b-Myrcine,117.2%
+6.251,-0.008,0,VB,2.17,17655,0.069512,b-Pinene,111.2%
+6.714,-0.009,0,BB,2.35,17378,0.062613,d-3-Carene,100.2%
+6.896,-0.01,0,BB,2.27,17907,0.067037,a-Terpene,107.3%
+7.009,-0.01,0,BB,2.3,5017,0.067224,Ocimene-1,107.6%
+7.125,-0.012,0,BV,2.46,20086,0.073895,d-Limonene,118.2%
+7.187,-0.013,0,VV,2.49,19477,0.064053,p-Cymene,102.5%
+7.34,-0.011,0,VV,2.39,12322,0.065399,Ocimene 2,104.6%
+7.423,-0.014,0,VB,2.8,15964,0.06097,Eucalyptol,97.6%
+7.742,-0.012,0,BB,2.57,16997,0.063396,g-Terpinene,101.4%
+8.533,-0.012,0,BB,3.09,18005,0.071408,Terpinolene,114.3%
+9.627,-0.013,0,BB,3.48,17309,0.072865,Linalool,116.6%
+10.855,-0.008,0,BB,1.58,13516,0.062704,Isopugeol,100.3%
+12.063,0,0,BB,1.72,22410,0.071892,Geraniol,115.0%
+13.379,-0.006,0,VB,1.09,23518,0.071756,b-Caryophyllene,114.8%
+13.607,-0.005,0,BB,1.05,18839,0.068705,a-Humulene,109.9%
+13.943,-0.004,0,BB,1,7449,0.067931,Nerolidol-1,108.7%
+14.099,-0.005,0,VB,0.96,11724,0.071853,Nerolidol-2,115.0%
+14.451,-0.007,0,BV,1.01,17218,0.063323,Guaiol,101.3%
+14.522,-0.006,0,VB,1.01,21925,0.067875,Caryophyllene oxide,108.6%
+14.775,-0.006,0,BV,1.03,16394,0.064116,a-Bisobolol,102.6%
+,,,,,,,,
+File,C:\star\data\qcint2_250313.run,Filetype,800,,,,,
+WTOASCII Parameters:,C:\star\WTOASCII.TXT,,,,,,,
+ 1 channels,,,,,,,,
+   Channel,1,FID,,in Volts,,,,
+Base rate 10.0000 Hz,Bunch 4,Effective rate 10.00000 Hz.,T = 0.001667 min.,,,,,
+10550 points,from,0,to,17.583,minutes,,,
+Sampling every 4 point(s),,,,,,,,
+Printing points from,0,to,"17.583 min, point 0 to 10549",,,,,
+Channels,1,to,1,,,,,
+Results for Channel,Front,=,FID,,,,,
+Title:,Report Title,,,,,,,
+Run File:,C:\star\data\qcint2_250313.run,,,,,,,
+--------------,,,,,,,,
+Injection Info,,,,,,,,
+--------------,,,,,,,,
+Method:,C:\star\He_TrpDir2.mth,,,,,,,
+Sample:,QCInt2_250313,,,,,,,
+Injection Date:,Thu Mar 13 17:29:04 2025,,,,,,,
+Tray: 1  Vial: 9        Injection Number: 1    Volume: 4.00 uL,,,,,,,,
+Operator:,oPERATOR,,,,,,,
+Instrument:,iNSTRUMENT #1,,,,,,,
+Notes:,,,,,,,,
+---------,,,,,,,,
+Misc Info,,,,,,,,
+---------,,,,,,,,
+Workstation:,DELTA-22DE4A88ÿHÚš”)G×Z,,,,,,,
+Bus Address:,44,,,,,,,
+Run Time:,0,to,17.583,min.,,,,
+-----------,,,,,,,,
+Recalc Info,,,,,,,,
+-----------,,,,,,,,
+Recalc Method:,C:\star\He_TrpDir2.mth,,,,,,,
+Recalc Date:,Fri Mar 14 07:18:53 2025,,,,,,,
+Operator:,oPERATOR,,,,,,,
+Instrument:,iNSTRUMENT #1,,,,,,,
+Notes:,,,,,,,,
+Sample Rate:,10.000 Hz.,,,,,,,
+Measurement Type:,1 = Area,,,,,,,
+Calculation Type:,4 = ExtStd,,,,,,,
+Normalize Results:,No,,,,,,,
+------------------------,,,,,,,,
+Peak Info for Channel Front,,,,,,,,
+------------------------,,,,,,,,
+41 Peaks (tR,Timeoffset,RRT,Sepcode,Width,Counts,Result,Name),Accuracy
+5.458,-0.005,0,PV,2.02,238592,0.916349,a-Pinene,91.6%
+5.786,-0.005,0,VB,2.08,240120,0.93617,Camphene,93.6%
+6.167,-0.007,0,VV,1.91,215650,0.91669,b-Myrcine,91.7%
+6.252,-0.007,0,VB,2.18,240745,0.915049,b-Pinene,91.5%
+6.716,-0.007,0,BB,2.29,256555,0.896435,d-3-Carene,89.6%
+6.898,-0.008,0,BB,2.25,245374,0.900732,a-Terpene,90.1%
+7.011,-0.008,0,BB,2.26,66778,0.885287,Ocimene-1,88.5%
+7.128,-0.009,0,BV,2.4,240863,0.930421,d-Limonene,93.0%
+7.19,-0.01,0,VP,2.37,274771,0.906123,p-Cymene,90.6%
+7.342,-0.009,0,PV,2.37,170693,0.901654,Ocimene 2,90.2%
+7.427,-0.01,0,VB,2.64,219762,0.882524,Eucalyptol,88.3%
+7.745,-0.009,0,BB,2.54,243175,0.904662,g-Terpinene,90.5%
+8.536,-0.009,0,BB,2.88,235382,0.902111,Terpinolene,90.2%
+9.63,-0.01,0,BB,3.41,225097,0.919767,Linalool,92.0%
+10.856,-0.007,0,BB,1.72,200297,0.907443,Isopugeol,90.7%
+12.057,-0.006,0,BB,1.2,196999,0.933456,Geraniol,93.3%
+13.38,-0.005,0,VB,1.06,269784,0.912995,b-Caryophyllene,91.3%
+13.607,-0.005,0,PB,1.04,248106,0.907113,a-Humulene,90.7%
+13.942,-0.005,0,PB,0.95,97662,0.899987,Nerolidol-1,90.0%
+14.1,-0.004,0,VB,0.95,146008,0.890332,Nerolidol-2,89.0%
+14.452,-0.006,0,BV,0.98,238392,0.885722,Guaiol,88.6%
+14.523,-0.005,0,VB,1,239544,0.869846,Caryophyllene oxide,87.0%
+14.776,-0.005,0,BP,0.98,226581,0.870375,a-Bisobolol,87.0%
+,,,,,,,,
+File,C:\star\data\qch2_250313.run,Filetype,800,,,,,
+WTOASCII Parameters:,C:\star\WTOASCII.TXT,,,,,,,
+ 1 channels,,,,,,,,
+   Channel,1,FID,,in Volts,,,,
+Base rate 10.0000 Hz,Bunch 4,Effective rate 10.00000 Hz.,T = 0.001667 min.,,,,,
+10550 points,from,0,to,17.583,minutes,,,
+Sampling every 4 point(s),,,,,,,,
+Printing points from,0,to,"17.583 min, point 0 to 10549",,,,,
+Channels,1,to,1,,,,,
+Results for Channel,Front,=,FID,,,,,
+Title:,Report Title,,,,,,,
+Run File:,C:\star\data\qch2_250313.run,,,,,,,
+--------------,,,,,,,,
+Injection Info,,,,,,,,
+--------------,,,,,,,,
+Method:,C:\star\He_TrpDir2.mth,,,,,,,
+Sample:,QCH2_250313,,,,,,,
+Injection Date:,Thu Mar 13 17:51:46 2025,,,,,,,
+Tray: 1  Vial: 10       Injection Number: 1    Volume: 4.00 uL,,,,,,,,
+Operator:,oPERATOR,,,,,,,
+Instrument:,iNSTRUMENT #1,,,,,,,
+Notes:,,,,,,,,
+---------,,,,,,,,
+Misc Info,,,,,,,,
+---------,,,,,,,,
+Workstation:,DELTA-22DE4A88ÿHÚš”)G×Z,,,,,,,
+Bus Address:,44,,,,,,,
+Run Time:,0,to,17.583,min.,,,,
+-----------,,,,,,,,
+Recalc Info,,,,,,,,
+-----------,,,,,,,,
+Recalc Method:,C:\star\He_TrpDir2.mth,,,,,,,
+Recalc Date:,Fri Mar 14 07:19:00 2025,,,,,,,
+Operator:,oPERATOR,,,,,,,
+Instrument:,iNSTRUMENT #1,,,,,,,
+Notes:,,,,,,,,
+Sample Rate:,10.000 Hz.,,,,,,,
+Measurement Type:,1 = Area,,,,,,,
+Calculation Type:,4 = ExtStd,,,,,,,
+Normalize Results:,No,,,,,,,
+------------------------,,,,,,,,
+Peak Info for Channel Front,,,,,,,,
+------------------------,,,,,,,,
+44 Peaks (tR,Timeoffset,RRT,Sepcode,Width,Counts,Result,Name),Accuracy
+5.465,0.002,0,PB,2.08,506107,1.875812,a-Pinene,93.8%
+5.794,0.002,0,PB,2.12,510503,1.879773,Camphene,94.0%
+6.175,0.001,0,VV,1.92,457534,1.889007,b-Myrcine,94.5%
+6.26,0.002,0,VB,2.19,511627,1.887991,b-Pinene,94.4%
+6.725,0.002,0,BB,2.31,550125,1.896346,d-3-Carene,94.8%
+6.907,0.001,0,BB,2.26,519874,1.897631,a-Terpene,94.9%
+7.02,0.001,0,BB,2.24,141503,1.914122,Ocimene-1,95.7%
+7.139,0.002,0,BV,2.45,510455,1.904113,d-Limonene,95.2%
+7.201,0.001,0,VP,2.36,583428,1.89723,p-Cymene,94.9%
+7.352,0.001,0,PV,2.39,362462,1.899424,Ocimene 2,95.0%
+7.437,0,0,VP,2.65,470703,1.919098,Eucalyptol,96.0%
+7.755,0.001,0,BB,2.55,516465,1.90307,g-Terpinene,95.2%
+8.546,0.001,0,BB,2.95,495802,1.896297,Terpinolene,94.8%
+9.641,0.001,0,BB,3.34,470290,1.917476,Linalool,95.9%
+10.86,-0.003,0,BB,1.7,424348,1.913158,Isopugeol,95.7%
+12.059,-0.004,0,BB,1.27,435206,1.953618,Geraniol,97.7%
+13.38,-0.005,0,VP,1.1,562183,1.905188,b-Caryophyllene,95.3%
+13.608,-0.004,0,PB,1,517881,1.912199,a-Humulene,95.6%
+13.942,-0.005,0,BB,0.97,204561,1.916504,Nerolidol-1,95.8%
+14.1,-0.004,0,BB,0.95,306949,1.903746,Nerolidol-2,95.2%
+14.453,-0.005,0,BV,0.97,501155,1.898619,Guaiol,94.9%
+14.523,-0.005,0,VP,1.01,503747,1.920104,Caryophyllene oxide,96.0%
+14.776,-0.005,0,BP,1.03,473571,1.876882,a-Bisobolol,93.8%

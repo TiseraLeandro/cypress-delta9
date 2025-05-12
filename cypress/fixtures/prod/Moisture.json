@@ -1,0 +1,28 @@
+{
+    "laboratory": "Delta 9 analytical",
+    "customer": "Test Customer",
+    "collectedBy": "Laboratory",
+    "collector": "Sampler User",
+    "sampleName": "Automation sample",
+    "replicas": "1",
+    "analysesProfiles": "Moisture",
+    "worksheetMethod": "Moisture",
+    "sampleMatrix": "Beverage",
+    "sampleType": "Coffee",
+    "reportTemplate": "Certificate Of Analysis",
+    "totalPackageSize": "1",
+    "acceptanceCriteriaConfirmation": "Confirm requirements are met",
+    "materials": [
+        {
+            "type": "Test Material Type",
+            "lotID": "ABC123"
+        }
+    ],
+    "instruments": [
+        {
+            "type": "LC-MSMS",
+            "instrument": "Sciex 6500\\+ LC-MSMS - 1000"
+        }
+    ],
+    "importFile": "importPFASResult"
+}

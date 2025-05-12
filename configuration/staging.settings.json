@@ -1,0 +1,9 @@
+{
+    "baseUrl": "https://delta9.slingrs.io/staging/runtime/",
+    "fixturesFolder": "cypress/fixtures/staging",
+    "env": {
+        "user": "sqauser@slingr.io",
+        "pass": "SQAUser12",
+        "fullName": "SQAUser SQAUser"
+    }
+}

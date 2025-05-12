@@ -137,7 +137,7 @@ jobs:
               "passed": "${{ env.CYPRESS_PASSED_TESTS || 0 }}",
               "failed": "${{ env.CYPRESS_FAILED_TESTS || 0 }}"
             },
-            "allure_report_url": "https://slingr-stack.github.io/cypress-nova/sanity"
+            "allure_report_url": "https://slingr-stack.github.io/cypress-delta9/sanity"
           }
           EOF
           

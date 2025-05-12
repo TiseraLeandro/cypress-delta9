@@ -77,7 +77,7 @@ async function setupNodeEvents(cyOn, config) {
 }
 
 module.exports = defineConfig({
-  numTestsKeptInMemory: 500,
+  numTestsKeptInMemory: 0,
   experimentalMemoryManagement: true,
   defaultCommandTimeout: 50000,
   pageLoadTimeout: 65000,
@@ -86,7 +86,7 @@ module.exports = defineConfig({
   chromeWebSecurity: false,
   watchForFileChanges: false,
   includeShadowDom: true,
-  video: true,
+  video: false,
   retries: {
     runMode: 0,
     openMode: 0

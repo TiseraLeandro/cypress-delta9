@@ -1,9 +1,0 @@
-{
-    "baseUrl": "https://delta9.slingrs.io/dev/runtime/",
-    "fixturesFolder": "cypress/fixtures/dev",
-    "env": {
-        "user": "sqauser@slingr.io",
-        "pass": "SQAUser12",
-        "fullName": "SQAUser SQAUser"
-    }
-}

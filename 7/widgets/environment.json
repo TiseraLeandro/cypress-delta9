@@ -1,0 +1,1 @@
+[{"values":["staging"],"name":"ENVIRONMENT"},{"values":["SQAUser SQAUser"],"name":"USER"},{"values":["@SANITY"],"name":"TAG"},{"values":["linux"],"name":"os"},{"values":["Ubuntu - "],"name":"osVersion"},{"values":["Chrome 136.0.7103.59"],"name":"browser"}]

@@ -324,7 +324,7 @@ Peak Info for Channel Front,,,,,,,Sam Wt,54.5
 4 Peaks (tR,Timeoffset,RRT,Sepcode,Width,Counts,Result,Name),
 2.915,0.029,0,BB,3.3,7407,1870.533691,Ethanol,1716.085955
 ,,,,,,,,
-File,C:\star\data\rs_BCF-250509-498-1_250317.run,Filetype,800,,,,,
+File,C:\star\data\rs_BCF-250520-511-1_250317.run,Filetype,800,,,,,
 WTOASCII Parameters:,C:\star\WTOASCII.TXT,,,,,,,
  1 channels,,,,,,,,
    Channel,1,FID,,in Volts,,,,

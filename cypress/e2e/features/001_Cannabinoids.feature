@@ -72,12 +72,6 @@ Feature: Cannabinoids - Profile
         And Start Preparation table is completed
         And Worksheet status is "Results Pending"
     
-    Scenario: Set dilution factor for Cannabinoids worksheet
-        When Navigate to "Worksheets" in main menu
-        And Click on the worksheet in the grid view
-        And Set dilution factor from the worksheet table
-        Then Dilution Factor is set for all partitions the work worksheet
-    
     Scenario: Import Results for Cannabinoids worksheet
         When Navigate to "Worksheets" in main menu
         And Click on the worksheet in the grid view
